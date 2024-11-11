@@ -1,0 +1,65 @@
+#app {
+  // background-color: #f4f8fc;
+  background-image: url('https://pngimg.com/d/world_map_PNG28.png');
+  background-repeat: no-repeat;
+  background-position: center 15%;
+  background-size: contain;
+}
+.v-application .primary--text{
+  color: $main-color !important;
+}
+.nuxt-link-exact-active.nuxt-link-active {
+  color: $main-color !important;
+  font-weight: bold;
+}
+.landing-page {
+  .v-input--radio-group__input {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    .v-radio{
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0 !important;
+      label{
+        margin: 0 !important;
+      }
+    }
+  }
+}
+.v-input__prepend-inner .v-input__icon i{
+  color: $main-color !important;
+}
+.v-text-field__slot{
+  .v-label--active
+  {
+    color: $main-color !important;
+  }
+}
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before{
+  border-color:  transparent !important;
+}
+.theme--light.v-text-field--outlined:not(.v-input--is-focused):not(.v-input--has-state) > .v-input__control > .v-input__slot fieldset{
+  border: none;
+}
+.v-item-group , .v-list-item-group{
+  // padding: 2px 10px !important;
+  line-height: 35px;
+}
+
+.lang-en {
+  direction: ltr;
+  text-align: left;
+}
+
+.lang-ar {
+  direction: rtl;
+  text-align: right;
+}
+.landing-page .v-input--radio-group__input .v-radio label{
+  padding: 0 5px !important;
+}

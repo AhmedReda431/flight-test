@@ -1,0 +1,13 @@
+.bg-main{
+  background-color: $main-color;
+  color: #fff;
+  span , i {
+    color: #fff !important;
+  }
+}
+.main-color{
+  color: $main-color;
+  i{
+    color: $main-color !important;
+  }
+}
